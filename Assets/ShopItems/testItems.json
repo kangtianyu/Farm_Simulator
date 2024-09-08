@@ -1,0 +1,23 @@
+{
+"items": [{
+		"name": "New Field",
+		"price": 0,
+		"type": "Upgrade",
+		"description": {"text":"Purchase additional Field.", "max":10},
+		"icon": "Assets/UI/Icons/Field.png"
+	},
+	{
+		"name": "Tomato Seeds",
+		"price": 0,
+		"type": "Seeds",
+		"description": {"text":"It will grow tomato.", "reward":100, "stage":[{"duration":0,"action":"water"}, {"duration":5000,"action":"bug"}, {"duration":3000,"action":"harvest"}]},
+		"icon": "Assets/UI/Icons/Tomato.png"
+	},
+	{
+		"name": "Cabbage Seeds",
+		"price": 0,
+		"type": "Seeds",
+		"description": {"text":"It will grow cabbage.", "reward":200,"stage":[{"duration":0,"action":"water"}, {"duration":10000,"action":"bug"}, {"duration":10000,"action":"harvest"}]},
+		"icon": "Assets/UI/Icons/Cabbage.png"
+	}]
+}

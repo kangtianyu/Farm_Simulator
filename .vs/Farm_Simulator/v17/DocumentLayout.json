@@ -1,0 +1,276 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Unity_Projects\\Farm_Simulator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity_Projects\\Farm_Simulator\\Assets\\Scripts\\Fields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Fields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity_Projects\\Farm_Simulator\\Assets\\Scripts\\MapGenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MapGenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity_Projects\\Farm_Simulator\\Assets\\Server\\SocketServer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Server\\SocketServer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity_Projects\\Farm_Simulator\\Assets\\Scripts\\SocketClient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SocketClient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity_Projects\\Farm_Simulator\\Assets\\UI\\ButtonActions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\UI\\ButtonActions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity_Projects\\Farm_Simulator\\Assets\\UI\\InventoryManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\UI\\InventoryManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity_Projects\\Farm_Simulator\\Assets\\UI\\ShopManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\UI\\ShopManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity_Projects\\Farm_Simulator\\Assets\\Scripts\\GameInstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\GameInstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity_Projects\\Farm_Simulator\\Assets\\UI\\UIManagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\UI\\UIManagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity_Projects\\Farm_Simulator\\Assets\\UI\\FriendsManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\UI\\FriendsManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity_Projects\\Farm_Simulator\\Assets\\UI\\LabelFollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\UI\\LabelFollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity_Projects\\Farm_Simulator\\Assets\\UI\\UIHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\UI\\UIHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity_Projects\\Farm_Simulator\\Assets\\Scripts\\MapDisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MapDisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity_Projects\\Farm_Simulator\\Assets\\Scripts\\DataStructure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DataStructure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity_Projects\\Farm_Simulator\\Assets\\Server\\SocketUtil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Server\\SocketUtil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Fields.cs",
+              "DocumentMoniker": "C:\\Unity_Projects\\Farm_Simulator\\Assets\\Scripts\\Fields.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Fields.cs",
+              "ToolTip": "C:\\Unity_Projects\\Farm_Simulator\\Assets\\Scripts\\Fields.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Fields.cs",
+              "ViewState": "AgIAADYBAAAAAAAAAAAAAD4BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T07:25:48.791Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UIHelper.cs",
+              "DocumentMoniker": "C:\\Unity_Projects\\Farm_Simulator\\Assets\\UI\\UIHelper.cs",
+              "RelativeDocumentMoniker": "Assets\\UI\\UIHelper.cs",
+              "ToolTip": "C:\\Unity_Projects\\Farm_Simulator\\Assets\\UI\\UIHelper.cs",
+              "RelativeToolTip": "Assets\\UI\\UIHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T06:31:16.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FriendsManager.cs",
+              "DocumentMoniker": "C:\\Unity_Projects\\Farm_Simulator\\Assets\\UI\\FriendsManager.cs",
+              "RelativeDocumentMoniker": "Assets\\UI\\FriendsManager.cs",
+              "ToolTip": "C:\\Unity_Projects\\Farm_Simulator\\Assets\\UI\\FriendsManager.cs",
+              "RelativeToolTip": "Assets\\UI\\FriendsManager.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T02:49:53.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MapDisplay.cs",
+              "DocumentMoniker": "C:\\Unity_Projects\\Farm_Simulator\\Assets\\Scripts\\MapDisplay.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MapDisplay.cs",
+              "ToolTip": "C:\\Unity_Projects\\Farm_Simulator\\Assets\\Scripts\\MapDisplay.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MapDisplay.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T07:04:58.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MapGenerator.cs",
+              "DocumentMoniker": "C:\\Unity_Projects\\Farm_Simulator\\Assets\\Scripts\\MapGenerator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MapGenerator.cs",
+              "ToolTip": "C:\\Unity_Projects\\Farm_Simulator\\Assets\\Scripts\\MapGenerator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MapGenerator.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAAMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T07:02:49.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ButtonActions.cs",
+              "DocumentMoniker": "C:\\Unity_Projects\\Farm_Simulator\\Assets\\UI\\ButtonActions.cs",
+              "RelativeDocumentMoniker": "Assets\\UI\\ButtonActions.cs",
+              "ToolTip": "C:\\Unity_Projects\\Farm_Simulator\\Assets\\UI\\ButtonActions.cs",
+              "RelativeToolTip": "Assets\\UI\\ButtonActions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T07:57:39.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UIManagement.cs",
+              "DocumentMoniker": "C:\\Unity_Projects\\Farm_Simulator\\Assets\\UI\\UIManagement.cs",
+              "RelativeDocumentMoniker": "Assets\\UI\\UIManagement.cs",
+              "ToolTip": "C:\\Unity_Projects\\Farm_Simulator\\Assets\\UI\\UIManagement.cs",
+              "RelativeToolTip": "Assets\\UI\\UIManagement.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAAJ8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T07:30:29.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LabelFollow.cs",
+              "DocumentMoniker": "C:\\Unity_Projects\\Farm_Simulator\\Assets\\UI\\LabelFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\UI\\LabelFollow.cs",
+              "ToolTip": "C:\\Unity_Projects\\Farm_Simulator\\Assets\\UI\\LabelFollow.cs",
+              "RelativeToolTip": "Assets\\UI\\LabelFollow.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T16:10:34.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SocketUtil.cs",
+              "DocumentMoniker": "C:\\Unity_Projects\\Farm_Simulator\\Assets\\Server\\SocketUtil.cs",
+              "RelativeDocumentMoniker": "Assets\\Server\\SocketUtil.cs",
+              "ToolTip": "C:\\Unity_Projects\\Farm_Simulator\\Assets\\Server\\SocketUtil.cs",
+              "RelativeToolTip": "Assets\\Server\\SocketUtil.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T05:45:55.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ShopManager.cs",
+              "DocumentMoniker": "C:\\Unity_Projects\\Farm_Simulator\\Assets\\UI\\ShopManager.cs",
+              "RelativeDocumentMoniker": "Assets\\UI\\ShopManager.cs",
+              "ToolTip": "C:\\Unity_Projects\\Farm_Simulator\\Assets\\UI\\ShopManager.cs",
+              "RelativeToolTip": "Assets\\UI\\ShopManager.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAAwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T10:36:02.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DataStructure.cs",
+              "DocumentMoniker": "C:\\Unity_Projects\\Farm_Simulator\\Assets\\Scripts\\DataStructure.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DataStructure.cs",
+              "ToolTip": "C:\\Unity_Projects\\Farm_Simulator\\Assets\\Scripts\\DataStructure.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DataStructure.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T10:35:10.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InventoryManager.cs",
+              "DocumentMoniker": "C:\\Unity_Projects\\Farm_Simulator\\Assets\\UI\\InventoryManager.cs",
+              "RelativeDocumentMoniker": "Assets\\UI\\InventoryManager.cs",
+              "ToolTip": "C:\\Unity_Projects\\Farm_Simulator\\Assets\\UI\\InventoryManager.cs",
+              "RelativeToolTip": "Assets\\UI\\InventoryManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T10:35:02.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GameInstance.cs",
+              "DocumentMoniker": "C:\\Unity_Projects\\Farm_Simulator\\Assets\\Scripts\\GameInstance.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameInstance.cs",
+              "ToolTip": "C:\\Unity_Projects\\Farm_Simulator\\Assets\\Scripts\\GameInstance.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameInstance.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAADoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T10:32:45.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SocketClient.cs",
+              "DocumentMoniker": "C:\\Unity_Projects\\Farm_Simulator\\Assets\\Scripts\\SocketClient.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SocketClient.cs",
+              "ToolTip": "C:\\Unity_Projects\\Farm_Simulator\\Assets\\Scripts\\SocketClient.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SocketClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T10:35:53.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SocketServer.cs",
+              "DocumentMoniker": "C:\\Unity_Projects\\Farm_Simulator\\Assets\\Server\\SocketServer.cs",
+              "RelativeDocumentMoniker": "Assets\\Server\\SocketServer.cs",
+              "ToolTip": "C:\\Unity_Projects\\Farm_Simulator\\Assets\\Server\\SocketServer.cs",
+              "RelativeToolTip": "Assets\\Server\\SocketServer.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T10:31:25.972Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
