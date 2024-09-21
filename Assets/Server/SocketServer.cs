@@ -290,8 +290,11 @@ public class SocketServer : MonoBehaviour
     {
         if (ServerFieldData[farmHash].fieldSlots[idx].stage + 1 < ShopManager.plantStages[ServerFieldData[farmHash].fieldSlots[idx].fieldContain].Count)
         {
-            ServerFieldData[farmHash].fieldSlots[idx].startTime = System.DateTime.UtcNow;
-            ServerFieldData[farmHash].fieldSlots[idx].stage += 1;
+            if (playerHash == farmHash)
+            {
+                ServerFieldData[farmHash].fieldSlots[idx].startTime = System.DateTime.UtcNow;
+                ServerFieldData[farmHash].fieldSlots[idx].stage += 1;
+            }
         }
         else
         {

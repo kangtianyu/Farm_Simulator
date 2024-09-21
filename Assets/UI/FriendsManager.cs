@@ -45,6 +45,7 @@ public static class FriendsManager
     private static void AddSelf()
     {
         Transform selfNamePlate = FriendsPanel.transform.GetChild(0).GetChild(0);
+        //Debug.Log($"{selfNamePlate.GetChild(0)} {selfNamePlate.GetChild(0).GetComponents<Object> ()}");
         selfNamePlate.GetChild(0).GetComponent<TMPro.TextMeshProUGUI>().text = $"<{GameData.playerName}>";
         
         if(selfNamePlate.gameObject.GetComponent<Button>() == null)
