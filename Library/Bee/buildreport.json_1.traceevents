@@ -1,0 +1,472 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1728455914938307, "dur": 9614213, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1728455914938815, "dur": 19311, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1728455914958129, "dur": 143214, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1728455915101345, "dur": 3149299, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1728455918250646, "dur": 6286075, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1728455924536724, "dur": 15795, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1728455924553352, "dur": 15, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1728455916796848, "dur": 1419220, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1728455916798405, "dur": 116541, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1728455918162795, "dur": 13552, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1728455918176352, "dur": 39699, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1728455918177591, "dur": 36850, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1728455918229229, "dur": 2069, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1728455918225461, "dur": 5883, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1728455924553505, "dur": 428, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1728455918379832, "dur":2451, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728455918382299, "dur":86, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1728455918382411, "dur":22, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1728455918382436, "dur":226, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1728455918382694, "dur":908, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728455918383602, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728455924477784, "dur":85, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728455924477869, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728455924477882, "dur":3932, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728455924481815, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728455924481837, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728455924481842, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728455924481851, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728455924481856, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728455924481865, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728455924481970, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728455924482010, "dur":13845, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1728455918384649, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728455918384650, "dur":10897, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728455918395560, "dur":222104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1728455918617746, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728455918618400, "dur":2117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1728455918620582, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1728455918620707, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728455918621751, "dur":6050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1728455918627869, "dur":16347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1728455918644221, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728455918644230, "dur":150010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1728455918794307, "dur":288348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455919082660, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728455919087529, "dur":5536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455919093227, "dur":78108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator.exe" }}
+,{ "pid":12345, "tid":1, "ts":1728455919171340, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728455919171346, "dur":12605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator.exe" }}
+,{ "pid":12345, "tid":1, "ts":1728455919184011, "dur":37117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455919221133, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728455919221237, "dur":2634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455919223937, "dur":79191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455919303134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728455919303142, "dur":12890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455919316093, "dur":69030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455919385126, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728455919385133, "dur":2533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455919387738, "dur":47980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455919435725, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728455919435735, "dur":7928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455919443735, "dur":56254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455919500007, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728455919500029, "dur":4919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455919505015, "dur":63660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455919568679, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728455919568688, "dur":8455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455919577205, "dur":176700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455919753911, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728455919753919, "dur":28064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455919782046, "dur":79713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455919861765, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728455919861773, "dur":199578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455920061418, "dur":328332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455920389754, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728455920389762, "dur":4177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455920394047, "dur":59996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455920454048, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728455920454066, "dur":24921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455920479286, "dur":124417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455920603707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728455920603714, "dur":122667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455920726445, "dur":154189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455920880639, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728455920880648, "dur":12483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455920893197, "dur":120701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455921013903, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728455921013912, "dur":3352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455921017327, "dur":72466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455921089798, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728455921089807, "dur":14079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455921103954, "dur":209646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455921313605, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728455921313613, "dur":30794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455921344559, "dur":148360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455921492924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728455921492931, "dur":1743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455921494733, "dur":183175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455921677913, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728455921677921, "dur":36741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455921714724, "dur":351556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455922066285, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728455922066292, "dur":18292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455922084648, "dur":136798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455922221451, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728455922221459, "dur":1842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455922223363, "dur":364118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455922587512, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728455922587520, "dur":17226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455922604812, "dur":146545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455922751362, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728455922751370, "dur":28275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455922779709, "dur":454028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455923233746, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728455923233757, "dur":35533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455923269354, "dur":216855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455923486214, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728455923486222, "dur":6378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455923492667, "dur":245681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455923738353, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728455923738360, "dur":4249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455923742696, "dur":389020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455924131721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728455924131727, "dur":4744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728455924136533, "dur":341114, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455918384618, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455918384624, "dur":10921, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455918395560, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1728455918395569, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455918399407, "dur":668, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1728455918400078, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1728455918400171, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455918402097, "dur":7266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1728455918409365, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1728455918409596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455918410000, "dur":92593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1728455918502664, "dur":119172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1728455918621841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455918621848, "dur":10367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1728455918632281, "dur":14171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1728455918646457, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455918646465, "dur":219754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1728455918866288, "dur":778399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455919644692, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455919644699, "dur":17958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455919662727, "dur":188028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455919850758, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455919850766, "dur":14316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455919865144, "dur":71488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455919936637, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455919936645, "dur":2101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455919938811, "dur":66848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455920005910, "dur":23, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455920006117, "dur":27306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455920033496, "dur":112873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455920146375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455920146407, "dur":2197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455920148667, "dur":180869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455920329541, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455920329548, "dur":36213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455920365838, "dur":56920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455920422763, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455920422771, "dur":22242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455920445079, "dur":102350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455920547434, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455920547441, "dur":1982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455920549485, "dur":63218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455920612733, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455920612742, "dur":110011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455920722816, "dur":272677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455920995498, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455920995506, "dur":2884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455920998455, "dur":108175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455921106635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455921106643, "dur":11928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455921118634, "dur":126524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455921245164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455921245172, "dur":23647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455921268889, "dur":81062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455921349971, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455921349980, "dur":1731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455921351772, "dur":259383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455921611160, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455921611203, "dur":2761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455921614028, "dur":293108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455921907144, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455921907155, "dur":5055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455921912276, "dur":155316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/Unity.AdaptivePerformance.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455922067596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455922067603, "dur":93000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/Unity.AdaptivePerformance.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455922160917, "dur":759256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455922920178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455922920185, "dur":210653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455923131004, "dur":181716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455923312725, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455923312733, "dur":123268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455923436096, "dur":606328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455924042429, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455924042438, "dur":2226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1728455924044727, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1728455924044829, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455924045286, "dur":3320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1728455924048685, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1728455924048770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455924048776, "dur":7311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1728455924056149, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1728455924056210, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455924056215, "dur":13254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1728455924069537, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1728455924069774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455924069780, "dur":1850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1728455924071696, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1728455924071938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455924071944, "dur":1686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1728455924075123, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1728455924075374, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455924075384, "dur":3892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1728455924079497, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1728455924079575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455924079582, "dur":2468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1728455924082125, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1728455924082193, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455924082198, "dur":1715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1728455924083979, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1728455924084043, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455924084048, "dur":21836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1728455924105962, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1728455924106024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455924106030, "dur":5616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1728455924111715, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1728455924111780, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455924111785, "dur":2262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1728455924114121, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1728455924114342, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728455924114347, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1728455924115859, "dur":361902, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728455918384625, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728455918384626, "dur":11055, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728455918395681, "dur":110124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1728455918505810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728455918505818, "dur":94875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1728455918600765, "dur":36544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1728455918637314, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728455918637323, "dur":157097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1728455918794486, "dur":352838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455919147329, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728455919147682, "dur":18731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455919166690, "dur":48808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455919215504, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728455919218307, "dur":4586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455919222956, "dur":74829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455919297791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728455919297799, "dur":18134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455919316003, "dur":56804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455919372812, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728455919372820, "dur":11101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455919384000, "dur":100242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455919484247, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728455919484255, "dur":19910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455919504405, "dur":57578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455919561989, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728455919561997, "dur":1784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455919563847, "dur":133003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455919696855, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728455919696863, "dur":24848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455919721783, "dur":83742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455919805530, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728455919805538, "dur":16182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455919821784, "dur":232437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455920054226, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728455920054234, "dur":10809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455920065113, "dur":100846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455920165964, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728455920165972, "dur":1768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455920167806, "dur":68756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455920236565, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728455920236572, "dur":24687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455920261322, "dur":40186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455920301512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728455920301519, "dur":22533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455920324146, "dur":66564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455920390715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728455920390722, "dur":9779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455920400562, "dur":66111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455920466680, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728455920466690, "dur":31534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455920498290, "dur":104586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455920602880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728455920602886, "dur":98197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455920701148, "dur":53303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455920754456, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728455920754464, "dur":90324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455920844852, "dur":75374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455920920232, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728455920920240, "dur":78846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455920999372, "dur":206049, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455921205426, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728455921205434, "dur":2161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455921208875, "dur":58265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455921267195, "dur":44, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728455921267248, "dur":48998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455921316323, "dur":94478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455921410807, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728455921410815, "dur":19265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455921430148, "dur":47380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455921477534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728455921477542, "dur":12232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455921490732, "dur":136652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455921627389, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728455921627397, "dur":37233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455921664696, "dur":272904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455921937644, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728455921937654, "dur":81806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455922019558, "dur":633898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455922653461, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728455922653469, "dur":11416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455922664949, "dur":55557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455922720512, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728455922720520, "dur":2997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455922723638, "dur":192248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455922915891, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728455922915899, "dur":3449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455922919415, "dur":682032, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455923601479, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728455923601488, "dur":4530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455923606081, "dur":524944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455924131030, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728455924131038, "dur":3756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728455924134891, "dur":342833, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455918384641, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455918384641, "dur":11038, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455918395679, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1728455918395867, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455918402582, "dur":100049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1728455918502706, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1728455918502837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455918502844, "dur":97109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1728455918600032, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1728455918600175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455918600667, "dur":2239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1728455918602980, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1728455918603117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455918603196, "dur":2168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1728455918605432, "dur":13538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1728455918618975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455918618982, "dur":1447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1728455918620498, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1728455918620637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455918620645, "dur":8500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1728455918629215, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1728455918629370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455918629482, "dur":5709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1728455918635266, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1728455918635407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455918635415, "dur":2960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1728455918638447, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1728455918638585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455918638592, "dur":155301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1728455918793971, "dur":52243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1728455918846219, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455918846230, "dur":20974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1728455918867278, "dur":263881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1728455919131164, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455919131170, "dur":5590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1728455919136831, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1728455919136959, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455919137328, "dur":23515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1728455919160964, "dur":140603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455919301572, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455919301579, "dur":5515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455919307157, "dur":77507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455919384669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455919384676, "dur":1751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455919386490, "dur":184252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455919570747, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455919570755, "dur":30996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455919601820, "dur":98836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455919700661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455919700669, "dur":50307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455919751041, "dur":98743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455919849790, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455919849798, "dur":4773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455919854639, "dur":259015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455920113659, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455920113667, "dur":2128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455920115859, "dur":53031, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455920168895, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455920168903, "dur":9061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455920178031, "dur":57747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455920235783, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455920235791, "dur":24009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455920259893, "dur":40677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455920300575, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455920300583, "dur":23419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455920324123, "dur":63277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455920387406, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455920387424, "dur":1873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455920389359, "dur":49769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455920439133, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455920439142, "dur":13689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455920452897, "dur":56287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455920509190, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455920509199, "dur":15038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455920524299, "dur":78384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455920602689, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455920602697, "dur":97164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455920699925, "dur":43654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455920743584, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455920743593, "dur":1772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455920745428, "dur":139963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455920885396, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455920885404, "dur":8564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455920894028, "dur":120845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455921014877, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455921014884, "dur":34127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455921049074, "dur":58471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455921107550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455921107582, "dur":46485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455921154133, "dur":75009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455921229300, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455921229309, "dur":16993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455921246366, "dur":86841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455921333212, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455921333220, "dur":57019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455921390305, "dur":126676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455921516987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455921516994, "dur":34990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455921552049, "dur":303576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455921855629, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455921855638, "dur":5286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455921861002, "dur":2194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455921863201, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455921863210, "dur":1941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455921865211, "dur":55416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/Unity.Profiling.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455921920632, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455921920640, "dur":60530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/Unity.Profiling.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455921981557, "dur":169591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455922151153, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455922151161, "dur":3628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455922154852, "dur":321063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455922475920, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455922475928, "dur":30124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455922506117, "dur":191214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455922697336, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455922697345, "dur":18337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455922715756, "dur":236565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455922952350, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455922952359, "dur":42307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455922994729, "dur":295460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455923290193, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455923290201, "dur":29720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455923319980, "dur":176771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455923496756, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455923496764, "dur":4148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455923501060, "dur":114081, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455923615146, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455923615154, "dur":1801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455923617015, "dur":856137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455924473157, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728455924473165, "dur":4395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity_Projects/Farm_Simulator_v0.02/Farm_Simulator_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728455924477629, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1728455924477632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728455924502720, "dur":6790, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1728455924554046, "dur": 1279, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1728455924553338, "dur": 2033, "ph": "X", "name": "Write chrome-trace events", "args": {} },

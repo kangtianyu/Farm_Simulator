@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class LabelFollow : MonoBehaviour
@@ -7,20 +8,26 @@ public class LabelFollow : MonoBehaviour
 	public Camera mainCamera; // The camera that the label should face
 	public int idx;
 	public string type;
+	public bool abandoned;
 
 	private RectTransform rectTransform;
 	private TMPro.TextMeshProUGUI text;
+	private Action<LabelFollow> UpdateAction;
 
-	public void init(Transform targetModel, Vector3 offset, string type, Camera mainCamera = null)
+    public void init(Transform targetModel, Vector3 offset, string type, Action<LabelFollow> UpdateAction, Camera mainCamera = null)
 	{
 		this.targetModel = targetModel;
 		this.offset = offset;
 		this.type = type;
-		rectTransform = GetComponent<RectTransform>();
+		this.UpdateAction = UpdateAction;
+
+        rectTransform = GetComponent<RectTransform>();
 		text = GetComponent<TMPro.TextMeshProUGUI>();
 		idx = targetModel.GetSiblingIndex();
+		this.abandoned = false;
 
-		if (mainCamera == null)
+
+        if (mainCamera == null)
 		{
 			mainCamera = Camera.main; // Get the main camera if not assigned
 		}
@@ -35,8 +42,11 @@ public class LabelFollow : MonoBehaviour
 
 	public void UpdateLabel()
 	{
-		// Convert the world position of the model to screen space
-		Vector3 screenPosition = mainCamera.WorldToScreenPoint(targetModel.position + offset);
+		// Update text
+		UpdateAction(this);
+
+        // Convert the world position of the model to screen space
+        Vector3 screenPosition = mainCamera.WorldToScreenPoint(targetModel.position + offset);
 
 		// Position the label at the screen position
 		rectTransform.position = screenPosition;

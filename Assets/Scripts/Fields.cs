@@ -11,13 +11,13 @@ public class Fields : MonoBehaviour
 
     private FieldData cacheFieldData;
     private List<GameObject> fieldNeedNewLabel;
-    private List<LabelFollow> OnScreenLabelHandles;
 
     public bool dataloaded = false;
     private bool initialized = false;
 	private bool fieldUpdated = false;
 	private bool atMaxField = false;
 	private bool clearFields = false;
+    private bool labelsRebuild = false;
 
 
     private Vector3[] positions = new Vector3[]
@@ -53,53 +53,43 @@ public class Fields : MonoBehaviour
 
 			if (GameData.gameInstance.ui.initialized && fieldUpdated)
 			{
-                Debug.Log("actual update fields");
+                // Check whether the current fields shown is match the fieldData
+                // Update if not match
                 UpdateFieldsObjects();
             }
-
-            List<LabelFollow> removedLabels = new List<LabelFollow>();
-            foreach (LabelFollow lf in OnScreenLabelHandles)
-            {
-                switch (lf.type)
-                {
-                    case "Field":
-                        int idx = lf.idx;
-                        FieldContain name = GameData.fieldData.fieldSlots[idx].fieldContain;
-                        if (name == FieldContain.Empty)
-                        {
-                            removedLabels.Add(lf);
-                            Destroy(lf.gameObject);
-                            continue;
-                        }
-                        int stage = GameData.fieldData.fieldSlots[idx].stage;
-                        int duration = ShopManager.plantStages[name][stage].duration;
-                        long deltaMillisecond = (System.DateTime.UtcNow - GameData.fieldData.fieldSlots[idx].startTime).Ticks / System.TimeSpan.TicksPerMillisecond;
-                        if (duration < deltaMillisecond)
-                        {
-                            lf.SetText(ShopManager.plantStages[name][stage].action);
-                            if (lf.targetModel.gameObject.GetComponent<ClickHandler>() == null)
-                            {
-                                lf.targetModel.gameObject.AddComponent<ClickHandler>();
-                            }
-                        }
-                        else
-                        {
-                            Component c = lf.targetModel.gameObject.GetComponent<ClickHandler>();
-                            if (c != null)
-                            {
-                                Destroy(c);
-                            }
-                            lf.SetText($"{0.001f * (duration - deltaMillisecond):F2} s");
-                        }
-                        break;
-                    default:
-                        break;
-                }
-                lf.UpdateLabel();
-            }
-            OnScreenLabelHandles.RemoveAll(x => removedLabels.Contains(x));
         }
 	}
+
+	public void UpdateFieldLabel(LabelFollow lf)
+	{
+        int idx = lf.idx;
+        FieldContain name = GameData.fieldData.fieldSlots[idx].fieldContain;
+        if (name == FieldContain.Empty)
+        {
+            lf.abandoned = true;
+            return;
+        }
+        int stage = GameData.fieldData.fieldSlots[idx].stage;
+        int duration = ShopManager.plantStages[name][stage].duration;
+        long deltaMillisecond = (System.DateTime.UtcNow - GameData.fieldData.fieldSlots[idx].startTime).Ticks / System.TimeSpan.TicksPerMillisecond;
+        if (duration < deltaMillisecond)
+        {
+            lf.SetText(ShopManager.plantStages[name][stage].action);
+            if (lf.targetModel.gameObject.GetComponent<ClickHandler>() == null)
+            {
+                lf.targetModel.gameObject.AddComponent<ClickHandler>();
+            }
+        }
+        else
+        {
+            Component c = lf.targetModel.gameObject.GetComponent<ClickHandler>();
+            if (c != null)
+            {
+                Destroy(c);
+            }
+            lf.SetText($"{0.001f * (duration - deltaMillisecond):F2} s");
+        }
+    }
 
 	public void FieldUpdated()
 	{
@@ -117,16 +107,12 @@ public class Fields : MonoBehaviour
 		initialized = false;
 		fieldUpdated = false;
 		atMaxField = false;
-        foreach (LabelFollow lf in OnScreenLabelHandles)
-        {
-            Destroy(lf.gameObject);
-        }
         foreach (Transform t in transform)
 		{
             Debug.Log($"{t} destroied");
 			Destroy(t.gameObject);
         }
-        OnScreenLabelHandles = new List<LabelFollow>();
+        LabelManager.clear();
     }
 
 
@@ -141,7 +127,6 @@ public class Fields : MonoBehaviour
 		GameData.gameInstance.mapGen.GenerateMap();
         cacheFieldData = new FieldData(GameData.playerName);
         fieldNeedNewLabel = new List<GameObject>();
-        OnScreenLabelHandles = new List<LabelFollow>();
         FieldUpdated();
         initialized = true;
     }
@@ -151,6 +136,11 @@ public class Fields : MonoBehaviour
 		dataloaded = true;
     }
 
+    public void RebuildLabels()
+    {
+        labelsRebuild = true;
+    }
+
 	private void UpdateFieldsObjects()
 	{
 		FieldContain oldField;
@@ -158,51 +148,63 @@ public class Fields : MonoBehaviour
 		GameObject lb;
         GameObject[] plantField = new GameObject[10];
 
+        // Add labels to new non-empty fields
+        // This process is at the begining of a new frame to avoid index problem
+        // which the index of fields are not correct when the field model is replaced
 		foreach (GameObject obj in fieldNeedNewLabel)
         {
-            lb = AddLabel(obj, "FieldLabel");
-			lb.transform.SetSiblingIndex(0);
+            lb = LabelManager.AddLabel(obj, "FieldLabel", "Field", UpdateFieldLabel);
+			//lb.transform.SetSiblingIndex(0);
         }
         fieldNeedNewLabel = new List<GameObject>();
 
+        // cache each field
         for (int i = 0; i < 10; i++)
 		{
 			plantField[i] = transform.GetChild(i).gameObject;
         }
+
+        // iterate all fields to check difference and update
+        // the index order is maintained
         for (int i = 0; i < 10; i++)
 		{
             if (GameData.fieldData.fieldSlots[i].fieldContain == FieldContain.None)
             {
                 plantField[i].SetActive(false);
 			}
-			else
-			{	
+            else
+            {
                 oldField = cacheFieldData.fieldSlots[i].fieldContain;
-				newField = GameData.fieldData.fieldSlots[i].fieldContain;
-                if (newField != oldField)
+                newField = GameData.fieldData.fieldSlots[i].fieldContain;
+                if (newField != oldField || labelsRebuild)
 				{
                     plantField[i] = ReplacePrefab(plantField[i], FieldContainToPrefab(newField));
-					if(newField == FieldContain.Empty)
-					{
-						plantField[i].AddComponent<ClickHandler>();
-					}
-					else
-					{
-						fieldNeedNewLabel.Add(plantField[i]);
+                    if (newField == FieldContain.Empty)
+                    {
+                        plantField[i].AddComponent<ClickHandler>();
+                    }
+                    else if (CameraManager.currentCameraFocus == CameraFocus.Fields)
+                    {
+                        fieldNeedNewLabel.Add(plantField[i]);
                     }
                 }
                 plantField[i].SetActive(true);
-				if((!atMaxField) && (i >= ShopManager.maxField - 1))
-				{
-					ShopManager.RemoveItemByName("New Field");
+                if ((!atMaxField) && (i >= ShopManager.maxField - 1))
+                {
+                    ShopManager.RemoveItemByName("New Field");
                     atMaxField = true;
                 }
             }
         }
-		if (fieldNeedNewLabel.Count == 0)
+        labelsRebuild = false;
+
+        // update next frame if new label needed
+        if (fieldNeedNewLabel.Count == 0)
 		{
             fieldUpdated = false;
         }
+
+        // update the field data cache which represent the fields shown
         cacheFieldData = SocketUtil.SerializeObjectCopy<FieldData>(GameData.fieldData);
     }
 
@@ -223,7 +225,6 @@ public class Fields : MonoBehaviour
 				return prefab;
 		}
 	}
-
 
     public void Plant(GameObject obj)
     {
@@ -267,6 +268,22 @@ public class Fields : MonoBehaviour
 		}
 	}
 
+    public void RemoveAllFieldListeners()
+    {
+        GameObject plantField;
+        Component c;
+
+        for (int i = 0; i < 10; i++)
+        {
+            plantField = transform.GetChild(i).gameObject;
+            c = plantField.GetComponent<ClickHandler>();
+            if (c != null)
+            {
+                Destroy(c);
+            }
+        }
+    }
+
     private GameObject ReplacePrefab(GameObject oldPrefabInstance, GameObject newPrefab)
 	{
 		if (oldPrefabInstance != null && newPrefab != null)
@@ -292,29 +309,6 @@ public class Fields : MonoBehaviour
 			Debug.LogError("Prefab replacement failed: Missing old prefab instance or new prefab.");
 			return null;
 		}
-    }
-
-    private GameObject AddLabel(GameObject obj, string name)
-    {
-        GameObject textObject = new GameObject(name);
-        textObject.transform.SetParent(GameData.gameInstance.ui.transform, false);
-
-        TMPro.TextMeshProUGUI text = textObject.AddComponent<TMPro.TextMeshProUGUI>();
-        text.raycastTarget = false;
-        text.text = "Test Label";
-        text.fontSize = 48;
-        text.alignment = TMPro.TextAlignmentOptions.Center;
-
-        // Set RectTransform properties
-        RectTransform rectTransform = text.GetComponent<RectTransform>();
-        rectTransform.sizeDelta = new Vector2(300, 50);
-        //rectTransform.anchoredPosition3D = new Vector3(0, 0, 0);
-
-        LabelFollow labelFollow = textObject.AddComponent<LabelFollow>();
-        labelFollow.init(obj.transform, new Vector3(0, 0, 0), "Field");
-        OnScreenLabelHandles.Add(labelFollow);
-
-        return textObject;
     }
 }
 

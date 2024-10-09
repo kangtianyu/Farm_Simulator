@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public enum FieldContain {None, Empty, Tomato, Cabbage};
@@ -10,7 +11,9 @@ public enum ItemType {Empty, Tomato, Cabbage};
 
 public class GameInstance : MonoBehaviour
 {
-	public Fields fields;
+    public EventSystem eventSystem;
+
+    public Fields fields;
 	public UIManagement ui;
 	public GameObject meshCollider;
 	public MapGenerator mapGen;
@@ -18,22 +21,34 @@ public class GameInstance : MonoBehaviour
 	public TMP_InputField playerName;
 	public TMP_InputField playerPassword;
 	public Button loginButton;
+    //public Camera camera;
+    public CameraFocus currentCameraFocus;
+    public bool CameraLock;
+    public GridRenderer gridRenderer;
+    public GraphicRaycaster uiRaycaster;
 
     private bool loginSuccess = false;
     private bool initalized = false;
+
 
     //private SocketClient socketClient;
 
     // Start is called before the first frame update
     void Start()
-	{
-		GameData.inventoryData = null;
+    {
+        GameData.eventSystem = eventSystem;
+        GameData.inventoryData = null;
 		GameData.fieldData = null;
 		GameData.currentItem = ItemType.Empty;
 		GameData.gameInstance = this;
         GameData.playerName = "Player";
 
-		loginUICanvas.SetActive(true);
+        CameraManager.init();
+        CameraLock = true;
+        GridManager.init(gridRenderer);
+        HouseObjectsManager.init(uiRaycaster);
+
+        loginUICanvas.SetActive(true);
         ui.gameObject.SetActive(false);
         fields.gameObject.SetActive(false);
 
@@ -55,8 +70,15 @@ public class GameInstance : MonoBehaviour
 				fields.gameObject.SetActive(true);
 				initalized = true;
             }
-			ui.UpdateUI();
 			fields.UpdateFields();
+            ui.UpdateUI();
+        }
+
+        //Camera Control
+        if (Camera.main != null && CameraLock)
+        {
+            Camera.main.transform.position = Vector3.MoveTowards(Camera.main.transform.position, CameraManager.targetPosition, CameraManager.speed * Time.deltaTime);
+            Camera.main.transform.rotation = Quaternion.Slerp(Camera.main.transform.rotation, CameraManager.targetRotation, CameraManager.speed * Time.deltaTime);
         }
     }
 
@@ -103,6 +125,11 @@ public class GameInstance : MonoBehaviour
         SocketClient.SendMessageToServer(5, nameInputField.text);
     }
 
+    public bool Initialized()
+    {
+        return initalized;
+    }
+
 	void OnApplicationQuit()
 	{
 		SocketClient.OnApplicationQuit();
@@ -117,6 +144,7 @@ public static class GameData
     public static ItemType currentItem;
 	public static GameInstance gameInstance;
     public static string playerName;
+    public static EventSystem eventSystem;
 
     public static int FieldGetStage(int idx)
 	{

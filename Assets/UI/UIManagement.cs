@@ -32,6 +32,11 @@ public class UIManagement : MonoBehaviour
 	public TMPro.TextMeshProUGUI MoneyText;
     public TMPro.TextMeshProUGUI FarmNameText;
 
+	public Transform CameraFocusSwitchButton;
+	public Transform UILabelsContainer;
+
+	public GameObject FurnitureFloatMenu;
+
     // Update is called once per frame
     public void UpdateUI()
 	{
@@ -50,7 +55,9 @@ public class UIManagement : MonoBehaviour
                 initialized = true;
             }
 
-			if (updateInventory)
+            LabelManager.UpdateLabelsUI();
+
+            if (updateInventory)
             {
                 InventoryManager.DisplayInventoryItems();
 				UpdateCoins();
@@ -71,6 +78,9 @@ public class UIManagement : MonoBehaviour
 			}
 
 		}
+
+        HouseObjectsManager.UpdateFloatMenu();
+
     }
 
 	public void InitUI()
@@ -105,6 +115,7 @@ public class UIManagement : MonoBehaviour
 			}
 		}
 
+        LabelManager.init(gameInstance, UILabelsContainer);
     }
 
 	public void UpdateInventory()
@@ -124,16 +135,22 @@ public class UIManagement : MonoBehaviour
 
     private void logoutClear()
 	{
-		triggered = false;
+		closeAllPanels();
+        //triggered = false;
 		dataloaded = false;
 		initialized = false;
 		updateInventory = false;
-        inventoryPanelShown = false;
-		shopPanelShown = false;
-		friendsPanelShown = false;
         InventoryPanel.SetActive(false);
         ShopPanel.SetActive(false);
         FriendsPanel.SetActive(false);
+    }
+
+	private void closeAllPanels()
+    {
+        inventoryPanelShown = false;
+        shopPanelShown = false;
+        friendsPanelShown = false;
+		triggered = true;
     }
 
 
@@ -160,6 +177,29 @@ public class UIManagement : MonoBehaviour
     {
         friendsPanelShown = !friendsPanelShown;
         triggered = true;
+    }
+
+    public void TrigerCameraFocus()
+    {
+		closeAllPanels();
+        CameraManager.switchCamera();
+		CameraFocusSwitchButton.Rotate(0, 0, 180f);
+
+		switch (CameraManager.currentCameraFocus)
+		{
+			case CameraFocus.Fields:
+                LabelManager.clear();
+                gameInstance.fields.RebuildLabels();
+                gameInstance.fields.FieldUpdated();
+                break;
+            case CameraFocus.House:
+                LabelManager.clear();
+                gameInstance.fields.RemoveAllFieldListeners();                
+                break;
+			default:
+				Debug.Log($"UI change not defined for Camera Focus {CameraManager.currentCameraFocus}");
+				break;
+        }
     }
 
     public void SelectItem(ItemType item)

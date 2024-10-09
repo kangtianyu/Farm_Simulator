@@ -95,3 +95,40 @@ public class PlantStage
 		this.action = action;
 	}
 }
+
+[Serializable]
+public class GridIndex
+{
+    public int z;
+    public int x;
+	public float h;
+
+	public GridIndex(int z, int x, float h = 0f)
+	{
+		this.z = z;
+		this.x = x;
+		this.h = h;
+	}
+
+    public override bool Equals(object obj)
+    {
+        GridIndex item = obj as GridIndex;
+
+        if (item == null)
+        {
+            return false;
+        }
+
+		return z == item.z && x == item.x;
+    }
+
+    public override int GetHashCode()
+    {
+		return (z, x, h).GetHashCode();
+    }
+
+    public override string ToString()
+    {
+        return $"GridIndex: {z}, {x}, {h}";
+    }
+}
